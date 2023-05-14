@@ -1,0 +1,98 @@
+
+a{
+  text-decoration: none;
+  color: #320D57;
+}
+
+.header{
+  background-color: white;
+}
+
+.header .container{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav img{
+  margin-right: 200px;
+}
+
+.container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.nav{
+  margin-top: 50px;
+  width: 92%;
+  background-color: white;
+  margin-left: 60px;
+  /* height: 900px; */
+}
+
+button{
+  color: rgb(0, 0, 0);
+  background-color: yellow;
+  height: 30px;
+  width: auto;
+  border-radius: 10px;                
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu{
+  width:60px;
+}
+
+.menu #menu{
+  width: auto;
+  height: 60px;
+  margin-left: 200px;
+}
+
+.menu_resp{
+  background-color: white; 
+  margin-left: 960px;
+  top: 145px; 
+  width: 120px; 
+  height: 130px;
+  float: none;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  border-style: solid;
+  border-color: #8B49CD;
+}
+
+.menu_resp-q{
+  background-color: white; 
+  margin-left: 930px;
+  top: 145px; 
+  width: 150px; 
+  height: 180px;
+  float: none;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  border-style: solid;
+  border-color: #8B49CD;
+}
+
+li{
+  margin-right: 30px;
+  font-size: 22px;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  line-height: 42px;
+}
+
+.logoBase{
+  width: 150px;
+  height: 40px;
+}
